@@ -21,7 +21,7 @@ public class MathUtilityTest {
 	
 	@Test
 	public void testAdd() {
-		int sum = utility.add(6, 5);
-		Assert.assertEquals(11, sum);
+		int sum = utility.add(6, 15);
+		Assert.assertEquals(21, sum);
 	}
 }
